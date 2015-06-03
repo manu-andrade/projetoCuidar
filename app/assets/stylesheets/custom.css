@@ -46,8 +46,12 @@ h2 {
 }
 
 p {
+
   font-size: 1.1em;
   line-height: 1.7em;
+}
+p:first-letter{
+  font-size: xx-large;
 }
 
 /* header */
@@ -95,4 +99,15 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+.img {
+    max-width: auto;
+    max-height: auto;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+    border: 1px solid #000000;
+    
 }
