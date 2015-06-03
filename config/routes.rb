@@ -5,7 +5,9 @@ Rails.application.routes.draw do
 
   get 'newsletter' => 'static_pages#newsletter'
 
-  get 'contato' => 'static_pages/contato'
+  get 'contato' => 'static_pages#contato'
+  
+  get 'about' => 'static_pages#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

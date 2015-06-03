@@ -10,4 +10,7 @@ class StaticPagesController < ApplicationController
 
   def contato
   end
+  
+  def about
+  end
 end
