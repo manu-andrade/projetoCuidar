@@ -1,18 +1,9 @@
 <div class="container">
 	<div class="row clearfix">
-		<div class="col-md-3 column">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<%= link_to image_tag("logo.jpg", alt: "cuidar, terapia ocupacional"), root_path %>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-8 column">
+		<div class="col-md-12 column">
 			<div class="page-header">
 				<h1>
-					Example page header <small>Subtext for header</small>
+					Cuidar, <small>Terapia Ocupacional</small>
 				</h1>
 			</div>
 		</div>
@@ -42,7 +33,7 @@
  
 				</div>
 				<div class="panel-footer">
-					Panel footer
+			<%= Time.now.strftime("%d-%m-%Y %H:%M:%S %Z") %>
 				</div>
 			</div>
 		</div>
