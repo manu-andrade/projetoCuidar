@@ -8,4 +8,8 @@ module ApplicationHelper
             page_title + " | " + base_title
         end
     end
+    
+    def dataFormatada
+        Time.now.strftime("%d-%m-%Y %H:%M:%S %Z")
+    end
 end
