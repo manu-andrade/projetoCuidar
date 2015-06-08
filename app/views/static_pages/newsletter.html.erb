@@ -1,27 +1,4 @@
 <% provide(:title, "Newsletter") %>
 
- <div class="page-header">
-       <h1>Newsletter, <small>Fique por dentro... </small></h1>
-  </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Assine nossa Newsletter</h3>
-  </div>
-  <div class="panel-body">
-  <form role="form">
-  <div class="form-group">
-    <label for="nome">Nome:</label>
-    <input type="text" class="form-control" id="nome">
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" class="form-control" id="email">
-  </div>
-  <button type="submit" class="btn btn-default">Cadastrar</button>
-</form>
-
-  </div>
-</div>
-
-
+<%= render 'layouts/form'%>
